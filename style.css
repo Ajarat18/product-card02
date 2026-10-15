@@ -1,0 +1,522 @@
+body{
+    background-color: white;
+}
+.product{
+    width: 1500px;
+    height: 750px;
+    background-color: rgb(167, 166, 166);
+    padding: 60px;
+    position: relative;
+    left: 25px;
+    display: grid;
+    grid-template-rows: 650px 650px 650px;
+    grid-template-columns: 450px 450px 450px;
+    grid-gap: 30px;
+}
+.watch{
+    background-color: black;
+    border-radius: 30px;
+}
+.headphone{
+    background-color: black;
+    border-radius: 30px;
+}
+.gamepad{
+    background-color: black;
+    border-radius: 30px;
+}
+.tag1{
+    width: 130px;
+    height: 65px;
+    background: linear-gradient(rgb(44, 44, 241),rgb(39, 163, 204));
+    position: relative;
+    left: 318px;
+    bottom: 32px;
+    border-radius: 25px;
+    color: white;
+    font-size: xx-large;
+}
+p{
+    position: relative;
+    left: 33px;
+    top: 10px;
+}
+.intro{
+    width: 450px;
+    height: 290px;
+    background: linear-gradient(rgb(68, 67, 67) ,rgb(7, 7, 7) );
+    border-radius: 20px;
+    position: relative;
+    bottom: -262.5px;
+}
+.button{
+    width: 180px;
+    height: 45px;
+    background:  linear-gradient(rgb(39, 187, 248),blue);
+    border-radius: 20px;
+    position: relative;
+    left: 125px;
+    top: 54px;
+}
+.depart{
+    width: 5px;
+    height: 173px;
+    background: linear-gradient(rgb(39, 187, 248),rgb(71, 71, 243),rgb(39, 187, 248));
+    border-radius: 2px;
+    position: relative;
+    left: 207px;
+    top: 29px;
+}
+b{
+    color: white;
+    font-weight: 800;
+    position: relative;
+    left: 32px;
+    top: 13px;
+}
+.name{
+    width: 180px;
+    height: 35px;
+    background-color: grey;
+    color: white;
+    position: relative;
+    bottom: 185px;
+    left: 5px;
+    font-weight: 900;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+a{
+    position: relative;
+    left: 11px;
+}
+.ame{
+    width: 110px;
+    height: 35px;
+    background-color: gray;
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+    border-radius: 10px;
+    position: relative;
+    bottom: 205px;
+    left: 7px;
+}
+c{
+    position: relative;
+    top: -1.5px;
+    left: 7px;
+}
+.yourtitleone{
+    width: 130px;
+    height: 30px;
+    background-color: gray;
+    position: relative;
+    left: 225px;
+    bottom: 268px;
+    border-radius: 10px;
+    color: rgb(39, 187, 248);
+    font-size: large;
+    font-weight: 800;
+}
+e{
+    position: relative;
+    left: 7px;
+    top: 4.5px;
+}
+.yourtitle1{
+    width: 130px;
+    height: 30px;
+    background-color: gray;
+    position: relative;
+    left: 225px;
+    bottom: 215px;
+    border-radius: 10px;
+    color: rgb(39, 187, 248);
+    font-size: large;
+    font-weight: 800;
+}
+.tag2{
+    width: 130px;
+    height: 65px;
+    background: linear-gradient(purple,rgb(250, 103, 127));
+    position: relative;
+    left: 319px;
+    bottom: 32px;
+    border-radius: 25px;
+    color: white;
+    font-size: xx-large;
+}
+.intro2{
+    width: 450px;
+    height: 290px;
+    background: linear-gradient(rgb(68, 67, 67),rgb(7, 7, 7));
+    position: relative; 
+    bottom: -262.5px;
+    border-radius: 20px;   
+}
+.depart1{
+    width: 5px;
+    height: 173px;
+    background: linear-gradient(rgb(250, 103, 127),purple,rgb(250, 103, 127));
+    position: relative;
+    left: 207px;
+    top: 29px;
+    border-radius: 2px;
+}
+.button2{
+    width: 180px;
+    height: 45px;
+    background: linear-gradient(purple,rgb(250, 103, 127));
+    border-radius: 20px;
+    position: relative;
+    left: 125px;
+    top: 54px;
+}
+.name2{
+    width: 180px;
+    height: 35px;
+    background-color: gray;
+    color: white;
+    position: relative;
+    bottom: 185px;
+    left: 5px;
+    font-weight: 900;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+.ame2{
+    width: 110px;
+    height: 35px;
+    background-color: gray;
+    color: white;
+    position: relative;
+    top: -205px;
+    left: 5px;
+    font-weight: 900;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+.yourtitletwo{
+    width: 130px;
+    height: 30px;
+    background-color: gray;
+    position: relative;
+    left: 225px;
+    bottom: 268px;
+    border-radius: 10px; 
+    font-size: large;
+    font-weight: 800;
+}
+.yourtitle2{
+    width: 130px;
+    height: 30px;
+    background-color: gray;
+    position: relative;
+    left: 225px;
+    bottom: 215px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 800;
+}
+.tag3{
+   width: 130px;
+    height: 65px;
+    background: linear-gradient(rgb(247, 44, 44),rgb(228, 228, 15));
+    position: relative;
+    left: 319px;
+    bottom: 32px;
+    border-radius: 25px;
+    color: white;
+    font-size: xx-large;  
+}
+.intro3{
+   width: 450px;
+    height: 290px;
+    background: linear-gradient(rgb(68, 67, 67),rgb(7, 7, 7));
+    position: relative; 
+    bottom: -262.5px;
+    border-radius: 20px;     
+}
+.depart2{
+    width: 5px;
+    height: 173px;
+    background: linear-gradient(yellow,rgb(247, 44, 44),yellow);
+    border-radius: 2px;
+    position: relative;
+    left: 207px;
+    top: 29px; 
+}
+.button3{
+     width: 180px;
+    height: 45px;
+    background: linear-gradient(rgb(247, 44, 44),yellow);
+    border-radius: 20px;
+    position: relative;
+    left: 125px;
+    top: 54px;
+}
+.name3{
+    width: 180px;
+    height: 35px;
+    background-color: gray;
+    color: white;
+    position: relative;
+    bottom: 185px;
+    left: 5px;
+    font-weight: 900;
+    font-size: xx-large;
+    border-radius: 10px; 
+}
+.ame3{
+    width: 110px;
+    height: 35px;
+    background-color: gray;
+    color: white;
+    position: relative;
+    top: -185px;
+    left: 5px;
+    font-weight: 900;
+    font-size: xx-large;
+    border-radius: 10px;
+} 
+.yourtitlethree{
+     width: 130px;
+    height: 30px;
+    background-color: gray;
+    position: relative;
+    left: 225px;
+    bottom: 253px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 800;
+}
+.two{
+    color:rgb(245, 65, 245);
+}
+.three{
+    color: rgb(236, 236, 14);
+}
+.yourtitle3{
+    width: 130px;
+    height: 30px;
+    background-color: gray;
+    position: relative;
+    left: 225px;
+    bottom: 212px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 800;
+}
+.backg1{
+    width: 447px;
+    height: 250px;
+    position: relative;
+    bottom: 730px;
+    left: 85px;
+}
+.pics{
+    width: 280px;
+    height: 220px;
+    position: relative;
+    bottom: 752px;
+    right: 282px;
+}
+.backg2{
+    width: 449.5px;
+    height: 250px;
+    position: relative;
+    bottom: 730px;
+    right: 170px;
+}
+.pics2{
+    width: 220px;
+    height: 280px;
+    position: relative;
+    right: 518px;
+    bottom: 700px;
+     
+}
+.pics3{
+    width: 220px;
+    height: 280px;
+    position: relative;
+    left: 1150px;
+   bottom: 1003px;   
+}
+.g3{
+   width: 447px;
+    height: 250px;
+    position: relative;
+    bottom: 730px;
+    right: 365px;
+}
+.nameone{
+    width: 135px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size:large;
+    position: relative;
+    bottom: 900px;
+    left: 90px;
+}
+.i{
+   color: white;
+   position: relative;
+   left: 2.5px;
+   top: 5px;
+   
+}
+.ameone{
+    width: 80px;
+    height: 22px;
+    background-color: gray;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size:large;
+    position: relative;
+    bottom: 900px;
+    left: 90px; 
+}
+.ii{
+   color: white;
+   position: relative;
+   left: 5px;
+   top: -0.5px;  
+}
+.title1{
+    width: 174px;
+    height: 28px;
+    background-color: gray;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size:large;
+    position: relative;
+    bottom: 989px;
+    left: 310px;  
+}
+.title1one{
+    width: 150px;
+    height: 28px;
+    background-color: gray;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size:large;
+    position: relative;
+    bottom: 933px;
+    left: 310px; 
+    color: white; 
+}
+.nametwo{
+    width: 135px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size:large;
+    position: relative;
+    bottom: 1008px;
+    left: 569px;
+}
+.ametwo{
+    width: 90px;
+    height: 22px;
+    background-color: gray;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size:large;
+    position: relative;
+    bottom: 1008px;
+    left: 571px;   
+}
+.title2{
+    width: 195px;
+    height: 28px;
+    background-color: gray;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size:large;
+    position: relative;
+    bottom: 1097px;
+    left: 788px;  
+}
+.title2two{
+     width: 192px;
+    height: 28px;
+    background-color: gray;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size:large;
+    position: relative;
+    bottom: 1041px;
+    left: 790px; 
+    color: white;
+}
+.namethree{
+    width: 135px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size:large;
+    position: relative;
+    bottom: 1110px;
+    left: 1052px; 
+}
+.amethree{
+    width: 90px;
+    height: 22px;
+    background-color: gray;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size:large;
+    position: relative;
+    bottom: 1110px;
+    left: 1054px;   
+}
+.title3{
+    width: 195px;
+    height: 28px;
+    background-color: gray;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size:large;
+    position: relative;
+    bottom: 1213px;
+    left: 1270px;
+}
+.title3three{
+     width: 192px;
+    height: 28px;
+    background-color: gray;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size:large;
+    position: relative;
+    bottom: 1160px;
+    left: 1270px; 
+    color: white;
+}
+.star1{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    bottom: 1280px;
+    left: 89px;
+}
+.star2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 1240px;
+    left:395px;  
+}
+.star3{
+    width: 180px;
+    height: 70px;
+    position: relative;
+    bottom: 1287px;
+    left: 675px;
+}
